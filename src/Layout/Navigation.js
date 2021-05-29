@@ -3,6 +3,11 @@ import React from 'react';
 const Navigation = () => {
   return (
     <nav id='nav-wrap' onClick={handleActive}>
+      <div
+        className={`${active ? 'cross' : ''} toggler`}
+        onClick={handleActive}></div>
+      {active && <div className='closeBtn' onClick={handleActive}></div>}
+
       <div className='navbar'>
         <a href='#home' className='logo'>
           <img src='/images/logo.png' alt='nkangi logo' />
