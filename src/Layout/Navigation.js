@@ -3,6 +3,10 @@ import React from 'react';
 const Navigation = () => {
   const [active, setActive] = useState(false);
 
+  useEffect(() => {
+    console.log({ active });
+  }, [active]);
+
   return (
     <nav id='nav-wrap' onClick={handleActive}>
       <div
