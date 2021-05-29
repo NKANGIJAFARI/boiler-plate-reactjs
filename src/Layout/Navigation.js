@@ -7,6 +7,10 @@ const Navigation = () => {
     console.log({ active });
   }, [active]);
 
+  const handleActive = () => {
+    setActive(!active);
+  };
+
   return (
     <nav id='nav-wrap' onClick={handleActive}>
       <div
