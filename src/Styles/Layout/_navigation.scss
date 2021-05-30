@@ -27,3 +27,20 @@
   left: 0;
   top: 0;
 }
+
+.opaque {
+  background-color: #333;
+}
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn {
+  display: none;
+}
+
+.nav {
+  min-height: 40px;
+  width: auto;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
