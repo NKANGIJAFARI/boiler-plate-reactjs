@@ -1,10 +1,11 @@
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/variables';
+@import './Abstract/functions';
+@import './Abstract/mixins';
+@import './Abstract/variable';
 
-@import 'Base/animations';
+@import './Base/animations';
 @import 'Base/base';
 @import 'Base/typography';
 @import 'Base/utilities';
+@import 'Base/globalStyles';
 
 @import './Layout/navigation';
