@@ -65,4 +65,26 @@
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
   }
+
+  & li a:active {
+    background-color: transparent !important;
+  }
+  & li.current a {
+    color: var(--colorTertiary);
+  }
+
+  & li a:after,
+  & li a:before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    transition: all 0.25s;
+  }
+
+  & li a:before {
+    left: 50%;
+  }
 }
