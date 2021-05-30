@@ -87,4 +87,13 @@
   & li a:before {
     left: 50%;
   }
+
+  & li a:after {
+    right: 50%;
+  }
+
+  & li a:hover:before,
+  & li a:hover:after {
+    width: 50%;
+  }
 }
