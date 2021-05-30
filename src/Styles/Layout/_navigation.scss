@@ -7,9 +7,23 @@
   position: absolute;
   top: 0.5rem;
   left: 3rem;
+}
 
-  & img {
-    width: 140px;
-    max-width: fit-content;
-  }
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 10px 0px 0px;
+}
+
+/* nav-wrap */
+#nav-wrap {
+  font: 12px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
