@@ -1,4 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import {
+  faBriefcase,
+  faCode,
+  faHome,
+  faIdCard,
+  faNetworkWired,
+  faUsers,
+  faUserTie,
+} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navigation = () => {
   const [active, setActive] = useState(false);
