@@ -1,0 +1,15 @@
+#nav-wrap > .toggler {
+  display: none;
+}
+
+.logo {
+  width: 100px;
+  position: absolute;
+  top: 0.5rem;
+  left: 3rem;
+
+  & img {
+    width: 140px;
+    max-width: fit-content;
+  }
+}
